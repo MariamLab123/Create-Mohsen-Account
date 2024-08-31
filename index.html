@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMGD</title>
+    <style>
+        *{
+            border:0;
+            margin:0;
+            text-decoration:none;
+            font-family:sans-serif;
+        }
+        body{
+            background-color:azure;
+        }
+        .d{
+            background-color:rgb(212, 235, 255);
+            width:400px;
+            height:250px;
+            border-radius:10px;
+        }
+        #h{
+            display:none;
+        }
+        #n{
+            display:none;
+        }
+        .btn{
+            background-color:cadetblue;
+            color:white;
+            font-size:25px;
+            border-radius:10px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h2 style="margin:15px;">Create Mohsen Account</h2>
+        <div class="d">
+        <div id="k">
+         <h3>Enter your name</h3>
+         <input>
+         <h3>Enter your age</h3>
+         <input>
+         <h3>Enter your code</h3>
+         <input>
+         <h3>Enter your phone number</h3>
+         <input id="p">
+         <button onclick="c()">Next</button>
+         </div>
+         <div id="n">
+            <h3>We need a GMAIL account</h3>
+            <p>by your gmail account we can send your password to you</p>
+            <h1 style="margin:20px;"></h1>
+            <a href="https://forms.office.com/r/MKUzseK1Ud"><button class="btn">Start</button></a>
+         </div>
+        </div>
+    </center>
+    <script>
+        let p = document.getElementById("p");
+        let h = document.getElementById("h");
+        let k = document.getElementById("k");
+        function c(){
+           k.style.display="none";
+           n.style.display="block";
+        }
+    </script>
+</body>
+</html>
